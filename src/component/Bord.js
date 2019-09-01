@@ -14,7 +14,7 @@ export default class Bord extends React.Component {
 
     render() {
         return (
-            <div className="BordStyle">
+            <div className="Bord">
                 <div>
                     <ButtonToolbar className="Bord-r-Style">
 
