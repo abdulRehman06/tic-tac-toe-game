@@ -1,13 +1,13 @@
 import React from 'react';
 import Button from "react-bootstrap/Button";
 
-export default function Square({ onClick , value  }) {
+export default function Square({ onClick , blockValue  }) {
     return (
         <div>
             <Button variant="outline-primary"
                     onClick={onClick}
             >
-                {value}
+                {blockValue}
             </Button>
         </div>
 

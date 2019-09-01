@@ -7,7 +7,7 @@ import {ButtonToolbar} from 'react-bootstrap';
 
 export default class Bord extends React.Component {
     renderSquare(i) {
-        return <Square value={this.props.squares[i]}
+        return <Square blockValue={this.props.squares[i]}
                        onClick={() => this.props.onClick(i)}
         />
     }
